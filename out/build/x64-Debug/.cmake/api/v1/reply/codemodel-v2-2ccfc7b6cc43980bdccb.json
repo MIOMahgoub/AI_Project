@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LidarCodingiA",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_lidar-Debug-094afe42e366d17e5226.json",
+					"name" : "robot_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_obstacle_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_obstacle_detector-Debug-271511f98d0ba2c3f94e.json",
+					"name" : "test_obstacle_detector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA/out/build/x64-Debug",
+		"source" : "C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
