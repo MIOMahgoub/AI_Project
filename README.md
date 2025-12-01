@@ -48,6 +48,11 @@
  - RaspBerryPi OS
  - Python 3.9+
  - MediaPipe
+ - Numpy
+ - TensorFlow
+ - Keras
+ - SciKit Learn
+ - MatPlot Library
 
 ### Arduino Uno
  - Arduino IDE
