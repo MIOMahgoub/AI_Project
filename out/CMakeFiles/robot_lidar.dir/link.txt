@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/robot_lidar.dir/link.d CMakeFiles/robot_lidar.dir/src/main.cpp.o CMakeFiles/robot_lidar.dir/src/lidar.cpp.o CMakeFiles/robot_lidar.dir/src/controller.cpp.o CMakeFiles/robot_lidar.dir/src/ObstacleDetector.cpp.o -o robot_lidar  /home/ivebens/AI_Project/lib/rplidar_sdk/output/Linux/Release/libsl_lidar_sdk.a -lpthread

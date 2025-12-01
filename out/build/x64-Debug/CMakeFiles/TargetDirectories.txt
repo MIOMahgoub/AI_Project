@@ -1,4 +1,0 @@
-C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA/out/build/x64-Debug/CMakeFiles/robot_lidar.dir
-C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA/out/build/x64-Debug/CMakeFiles/test_obstacle_detector.dir
-C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/MIMah/Documents/FAU/Into to AI/Team Tigers Project Handie/LidarCodingiA/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

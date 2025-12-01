@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(LidarCodingiA)
+project(AI_Project)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -74,7 +74,7 @@ endif()
 
 # ---- LINUX / PI ZERO BUILD ----
 if (UNIX AND NOT WIN32)
-    list(APPEND COMMON_SOURCES src/I2C.cpp)
+    # Serial communication removed - obstacle detection only
 
     message(STATUS "Building on Linux/Pi: linking against librplidar_sdk.a")
 
@@ -83,6 +83,7 @@ if (UNIX AND NOT WIN32)
     )
 
     target_link_libraries(robot_lidar
-        ${RPLIDAR_SDK_DIR}/lib/librplidar_sdk.a
-    )
+    ${CMAKE_SOURCE_DIR}/lib/rplidar_sdk/output/Linux/Release/libsl_lidar_sdk.a
+    pthread
+)
 endif()

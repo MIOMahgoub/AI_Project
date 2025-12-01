@@ -1,4 +1,4 @@
-#include "Controller.h"
+#include "controller.h"
 
 std::string Controller::decide(const ObstacleInfo& info) {
 
